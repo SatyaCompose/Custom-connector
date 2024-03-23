@@ -12,8 +12,8 @@ const config = {
       initialProjectKey: 'ct-assessment',
     },
     production: {
-      applicationId: 'TODO',
-      url: 'https://your_app_hostname.com',
+      applicationId: 'clu41fyvz0001vwcvnn3j5xyy',
+      url: 'https://mc-app-2ae0469f-da9a-4b2f-b422-b2f52b2f55c0.australia-southeast1.gcp.commercetools.app/',
     },
   },
   oAuthScopes: {
