@@ -16,7 +16,9 @@
     "format": "prettier --write '**/*.{js,ts,tsx}'",
     "typecheck": "tsc --noEmit",
     "versions:appkit": "manypkg upgrade @commercetools-frontend",
-    "versions:uikit": "manypkg upgrade @commercetools-uikit"
+    "versions:uikit": "manypkg upgrade @commercetools-uikit",
+    "postDeploy": "npm install && npm run build && npm run connector:post-deploy",
+    "preUndeploy": "npm install && npm run build && npm run connector:pre-undeploy"
   },
   "dependencies": {
     "@apollo/client": "3.7.14",
