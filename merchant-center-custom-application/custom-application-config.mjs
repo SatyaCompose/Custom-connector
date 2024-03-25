@@ -1,5 +1,6 @@
 import { PERMISSIONS, entryPointUriPath } from './src/constants';
-
+import dotenv from 'dotenv';
+dotenv.config();
 /**
  * @type {import('@commercetools-frontend/application-config').ConfigOptionsForCustomApplication}
  */
@@ -12,8 +13,8 @@ const config = {
       initialProjectKey: 'ct-assessment',
     },
     production: {
-      applicationId: 'clu41fyvz0001vwcvnn3j5xyy',
-      url: 'https://mc-app-f46337ea-f63b-4b7c-8393-cb9959f28863.australia-southeast1.gcp.commercetools.app/',
+      applicationId: process.env.APP_ID,
+      url: process.env.APP_URL,
     },
   },
   oAuthScopes: {
