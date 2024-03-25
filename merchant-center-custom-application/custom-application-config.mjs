@@ -14,8 +14,8 @@ const config = {
       initialProjectKey: 'ct-assessment',
     },
     production: {
-      applicationId: process.env.APP_ID || 'applicationId',
-      url: process.env.APP_URL || 'url',
+      applicationId: process.env.APP_ID || 'clu41fyvz0001vwcvnn3j5xyy',
+      url: process.env.APP_URL || 'https://mc-app-067296bb-5b6f-4902-9281-8b8415d63aa2.australia-southeast1.gcp.commercetools.app',
     },
   },
   oAuthScopes: {
