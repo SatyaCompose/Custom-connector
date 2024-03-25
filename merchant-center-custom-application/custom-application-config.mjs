@@ -14,8 +14,8 @@ const config = {
       initialProjectKey: 'ct-assessment',
     },
     production: {
-      applicationId: process.env.APP_ID,
-      url: process.env.APP_URL,
+      applicationId: process.env.APP_ID || 'applicationId',
+      url: process.env.APP_URL || 'url',
     },
   },
   oAuthScopes: {
