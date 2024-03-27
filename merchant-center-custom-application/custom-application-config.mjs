@@ -1,7 +1,6 @@
 import { PERMISSIONS, entryPointUriPath } from './src/constants';
 import dotenv from 'dotenv';
-import path from 'path';
-dotenv.config({ path: path.resolve(__dirname, 'vars', '.env') });
+dotenv.config();
 /**
  * @type {import('@commercetools-frontend/application-config').ConfigOptionsForCustomApplication}
  */
